@@ -1,4 +1,4 @@
-/* landingpage */
+/* Landing Page */
 /* https://uigradients.com */
 .header-color {
   background: #1A2980;  /* fallback for old browsers */
@@ -20,6 +20,7 @@
   height: 200px;
   margin-top: 80px;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 .banner-text {
   padding: 8px 0;
@@ -65,10 +66,70 @@
   width: 120%;
 }
 
-/* projects */
+/* Projects Page */
 .projects-grid {
+  margin-top: 30px;
   padding: 0 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+/* Contact Page */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+}
+.contact-grid {
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+.contact-grid p {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list .list-item {
+  padding-left: 110px;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+}
+.list-item i {
+  font-size: 40px;
+  padding-right: 3rem;
+}
+
+/* Resume Page */
+.resume-left-col {
+  text-align: center;
+}
+.resume-left-col .hr-line {
+  border-top: 3px solid #833fb2;
+  width: 60%;
+  margin: auto;
+}
+.resume-left-col .web-link {
+  text-decoration: none;
+  color: #000;
+}
+.resume-right-col {
+  background: rgb(41, 36, 33);
+  color: #fff;
+  padding: 2em;
 }

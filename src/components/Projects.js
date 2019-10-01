@@ -5,7 +5,7 @@ export default class Projects extends Component {
     render() {
         let gridStyle = {
             minWidth: '450', 
-            margin: '0 16px 46px 0'
+            margin: '0 16px 50px 0'
         }
 
         return (
@@ -52,6 +52,18 @@ export default class Projects extends Component {
                             <CardActions border>
                                 <a href="https://github.com/kexiZeroing/chatroom" rel="noopener noreferrer" target="_blank"> 
                                     <Button colored ripple={true}>GitHub</Button>
+                                </a>
+                            </CardActions>
+                        </Card>
+
+                        <Card shadow={5} style={gridStyle}>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(/img/game-bg.png) center / cover'}} >Flip Puzzle Game</CardTitle>
+                            <CardText>
+                                A web app game implemented by vanilla javascript and CSS, no framework included. 
+                            </CardText>
+                            <CardActions border>
+                                <a href="http://flip-puzzle.surge.sh/" rel="noopener noreferrer" target="_blank"> 
+                                    <Button colored ripple={true}>Demo</Button>
                                 </a>
                             </CardActions>
                         </Card>
