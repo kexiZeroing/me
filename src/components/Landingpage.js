@@ -17,7 +17,7 @@ export default class Landingpage extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
-                            <p>HTML | CSS | JavaScript | React | Vue | NodeJS | Express | MongoDB</p>
+                            <p>HTML | CSS | JavaScript | React | Vue | Angular | NodeJS | Express</p>
                             <div className="social-links">
                                 <a href="https://linkedin.com/in/dangkexi/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -36,7 +36,7 @@ export default class Landingpage extends Component {
                                     onMouseEnter={() => this.setState({shouldQRCodeShow: true})}
                                     onMouseLeave={() => this.setState({shouldQRCodeShow: false})}
                                 >
-                                   {this.state.shouldQRCodeShow && <img className="qrcode-img" src="/qrcode.jpg" alt="qrcode"/>}
+                                   {this.state.shouldQRCodeShow && <img className="qrcode-img" src="/img/qrcode.jpg" alt="qrcode"/>}
                                     <i className="fa fa-weixin" aria-hidden="true" />
                                 </span>
                             </div>
