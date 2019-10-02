@@ -15,6 +15,7 @@ function App() {
                     <Link to="/projects" className="nav-link">Projects</Link>
                     <Link to="/contact" className="nav-link">Contact</Link>
                     <a href="https://kexizeroing.github.io" className="nav-link" rel="noopener noreferrer" target="_blank">Blog</a>
+                    <a href="https://www.yuque.com/u235546/qz3u9h" className="nav-link" rel="noopener noreferrer" target="_blank">Knowledge</a>
                 </Navigation>
             </Header>
             <Drawer title={<Link className="nav-title" style={{color: '#000'}} to="/">My Portfolio</Link>}>
@@ -23,6 +24,7 @@ function App() {
                     <Link to="/projects" className="nav-link">Projects</Link>
                     <Link to="/contact" className="nav-link">Contact</Link>
                     <a href="https://kexizeroing.github.io" className="nav-link" rel="noopener noreferrer" target="_blank">Blog</a>
+                    <a href="https://www.yuque.com/u235546/qz3u9h" className="nav-link" rel="noopener noreferrer" target="_blank">Knowledge</a>
                 </Navigation>
             </Drawer>
             <Content>
