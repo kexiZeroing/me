@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
+import me from '../me.jpg'
 
 export default class Resume extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class Resume extends Component {
                 <Grid>
                     <Cell className="resume-left-col" col={4}>
                         <img
-                            src="/img/me.jpg"
+                            src={me}
                             alt="avatar"
                             style={{height: '180px', borderRadius: '50%'}}
                         />

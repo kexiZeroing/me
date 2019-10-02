@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl'
+import me from '../me.jpg'
 
 export default class Contact extends Component {
     render() {
@@ -9,7 +10,7 @@ export default class Contact extends Component {
                     <Cell col={6}>
                         <h2>Kexi Dang</h2>
                         <img
-                            src="/img/me.jpg"
+                            src={me}
                             alt="avatar"
                             style={{height: '200px', borderRadius: '12px'}}
                         />

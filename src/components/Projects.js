@@ -18,7 +18,7 @@ export default class Projects extends Component {
                 <Cell col={12}>
                     <div className="projects-grid">
                         <Card shadow={5} style={gridStyle}>
-                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(/img/shopping-bg.jpg) center / cover'}} >e-shopping</CardTitle>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/shopping-bg.jpg) center / cover'}} >e-shopping</CardTitle>
                             <CardText>
                                 Smart phone shopping. Use Styled-Component with Create React App.
                             </CardText>
@@ -33,7 +33,7 @@ export default class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={gridStyle}>
-                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(/img/ricebook-bg.png) center / cover'}} >Ricebook</CardTitle>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/ricebook-bg.png) center / cover'}} >Ricebook</CardTitle>
                             <CardText>
                                 Angular social platform. You can use the test user (kobe, 123) to login. Have fine with it.
                             </CardText>
@@ -45,7 +45,7 @@ export default class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={gridStyle}>
-                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(/img/chatroom-bg.png) center / cover'}} >Chatroom</CardTitle>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/chatroom-bg.png) center / cover'}} >Chatroom</CardTitle>
                             <CardText>
                                 Chatroom supported by Websocket. Full Duplex communication.
                             </CardText>
@@ -57,7 +57,7 @@ export default class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={gridStyle}>
-                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(/img/game-bg.png) center / cover'}} >Flip Puzzle Game</CardTitle>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/game-bg.png) center / cover'}} >Flip Puzzle Game</CardTitle>
                             <CardText>
                                 A web app game implemented by vanilla javascript and CSS, no framework included. 
                             </CardText>

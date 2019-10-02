@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl';
+import me from '../me.jpg'
+import qrcode from '../qrcode.jpg'
 
 export default class Landingpage extends Component {
     state = {shouldQRCodeShow: false}
@@ -10,7 +12,7 @@ export default class Landingpage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="/img/me.jpg"
+                            src={me}
                             alt="avatar"
                             className="avatar-img"
                         />
@@ -36,7 +38,7 @@ export default class Landingpage extends Component {
                                     onMouseEnter={() => this.setState({shouldQRCodeShow: true})}
                                     onMouseLeave={() => this.setState({shouldQRCodeShow: false})}
                                 >
-                                   {this.state.shouldQRCodeShow && <img className="qrcode-img" src="/img/qrcode.jpg" alt="qrcode"/>}
+                                   {this.state.shouldQRCodeShow && <img className="qrcode-img" src={qrcode} alt="qrcode"/>}
                                     <i className="fa fa-weixin" aria-hidden="true" />
                                 </span>
                             </div>
