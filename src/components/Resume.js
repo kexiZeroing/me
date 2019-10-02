@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
-import me from '../me.jpg'
+import me from '../images/me.jpg';
 
 export default class Resume extends Component {
     render() {

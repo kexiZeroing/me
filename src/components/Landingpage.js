@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl';
-import me from '../me.jpg'
-import qrcode from '../qrcode.jpg'
+import me from '../images/me.jpg';
+import qrcode from '../images/qrcode.jpg';
 
 export default class Landingpage extends Component {
     state = {shouldQRCodeShow: false}
