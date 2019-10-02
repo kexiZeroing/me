@@ -17,7 +17,7 @@ function App() {
                     <a href="https://kexizeroing.github.io" className="nav-link" rel="noopener noreferrer" target="_blank">Blog</a>
                 </Navigation>
             </Header>
-            <Drawer className="header-color" title={<Link style={{color: '#000'}} to="/">My Portfolio</Link>}>
+            <Drawer className="header-color" title={<Link className="nav-title" style={{color: '#000'}} to="/">My Portfolio</Link>}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>

@@ -28,14 +28,14 @@ export default class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h4>Education</h4>
                         <Education
-                            startYear={2010}
-                            endYear={2014}
+                            startYear={2010.9}
+                            endYear={2014.7}
                             schoolName="Beijing University of Technology"
                             degree="Bachelor of Engineering"
                         />
                         <Education
-                            startYear={2018}
-                            endYear={2019}
+                            startYear={2018.8}
+                            endYear={2019.12}
                             schoolName="Rice University"
                             degree="Master of Computer Science"
                         />
