@@ -69,7 +69,7 @@ export default class Projects extends Component {
                         </Card>
 
                         <Card shadow={5} style={gridStyle}>
-                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/shopping-bg.jpg) center / cover'}} >Budget Calculator </CardTitle>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/budget-bg.png) center / cover'}} >Budget Calculator </CardTitle>
                             <CardText>
                                 Angular project having different components and passing data between components. Also use Bulma and Angular Material.
                             </CardText>
