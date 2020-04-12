@@ -67,6 +67,21 @@ export default class Projects extends Component {
                                 </a>
                             </CardActions>
                         </Card>
+
+                        <Card shadow={5} style={gridStyle}>
+                            <CardTitle style={{color: 'darkviolet', height: '176px', background: 'url(img/shopping-bg.jpg) center / cover'}} >Budget Calculator </CardTitle>
+                            <CardText>
+                                Angular project having different components and passing data between components. Also use Bulma and Angular Material.
+                            </CardText>
+                            <CardActions border>
+                                <a href="https://github.com/kexiZeroing/budget-calc-ng" rel="noopener noreferrer" target="_blank"> 
+                                    <Button colored ripple={true}>GitHub</Button>
+                                </a>
+                                <a href="http://budget-calc.surge.sh/" rel="noopener noreferrer" target="_blank"> 
+                                    <Button colored ripple={true}>Demo</Button>
+                                </a>
+                            </CardActions>
+                        </Card>
                     </div>
                 </Cell>
             </Grid>
