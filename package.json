@@ -9,7 +9,7 @@
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.1.1",
     "react-scripts": "3.1.2",
-    "serialize-javascript": "^2.1.2"
+    "serialize-javascript": "^3.1.0"
   },
   "homepage": "https://kexizeroing.github.io/me/",
   "scripts": {
